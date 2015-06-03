@@ -5,9 +5,10 @@ define(['jquery',
     'i18n!faostat-ui-compare/nls/translate',
     'faostat_commons',
     'wds_client',
+    'faostat-ui-compare-selectors',
     'bootstrap',
     'sweetAlert',
-    'amplify'], function ($, Handlebars, templates, translate, FAOSTATCommons, WDSClient) {
+    'amplify'], function ($, Handlebars, templates, translate, FAOSTATCommons, WDSClient, COMPARE_SELECTORS) {
 
     'use strict';
 

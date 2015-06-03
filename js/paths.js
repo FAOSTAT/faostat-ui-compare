@@ -7,7 +7,7 @@ define(function() {
 
         paths: {
             // should be fixed the module name? (entry point)
-            'FAOSTAT_UI_COMPARE': './faostat-ui-compare',
+            'faostat-ui-compare': './faostat-ui-compare',
 
             // config folders
             'faostat-ui-compare/html': '../html',
