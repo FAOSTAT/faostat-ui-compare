@@ -54,6 +54,14 @@ define(['jquery',
 
         /* rendering template **/
         $placeholder.html(html);
+
+        /* add selectors */
+        var obj = $.extend(true, {}, this.o, {placeholder_id: '[data-role="selectors"]'});
+
+    };
+
+    COMPARE.prototype.addSelector = function() {
+        //COMPARE_SELECTORS
     };
 
     COMPARE.prototype.destroy = function() {
